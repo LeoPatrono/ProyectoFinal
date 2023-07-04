@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>Contacto | Viaja conmigo</title>
-<link rel="icon" href="../icons8-globo.gif">
-<meta name="description" content="Comparti tu experiencia viajera, contenido de viajes, experiencias y tips">
-<meta name="keywords" content="FOTOS, VIAJES, EXPERIENCIAS VIAJERAS, TIPS DE VIAJES, CONTACTO ">
+    <link rel="icon" href="../icons8-globo.gif">
+    <meta name="description" content="Comparti tu experiencia viajera, contenido de viajes, experiencias y tips">
+    <meta name="keywords" content="FOTOS, VIAJES, EXPERIENCIAS VIAJERAS, TIPS DE VIAJES, CONTACTO ">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -63,17 +63,29 @@
     </header>
 
     <main>
-        <h2>Dejanos tu comentario:</h2>
-        <p>Me encantaria quesi te animas, puedas compartir tus experiencias y vivencias con esta bella comunidad. <br> <strong>La hagamos crecer juntos!</strong></p>
-        <form action="">
-            <input type="text">
-            <input type="submit">
-            <input type="reset">
+        <section class="index">
+            <div class="encabezado">
+                <h2>Dejanos tu comentario:</h2>
+                <p>Me encantaria (si te animas), puedas compartir tus experiencias y vivencias con esta bella comunidad.
+                    <br>
+                    <strong>La hagamos crecer juntos!</strong>
+                </p>
+
+            </div>
 
 
 
-        </form>
-
+        </section>
+        <section class="bodie">
+            <form action="">
+                <ul>
+                    <p>Escribe tus comentarios en el siguiente espacio:</p>
+                    <li><textarea id="msg" name="user_message">Escribe aqui.. </textarea></li>
+                    <li><input type="email" id="mail" name="user_email" value="email@servidor.com" /></li>
+                    <li><input type="submit" value="Enviar"><input type="reset" value="Restablecer"></li>
+                </ul>
+            </form>
+        </section>
 
 
     </main>
